@@ -1,0 +1,13 @@
+{
+  "loginPage":
+  {
+    "userNameField": "#username",
+    "passwordField": "#password",
+    "loginButton": ".radius",
+    "alert": ".flash",
+    "signOutButton": ".icon-signout",
+    "secureArea": ".subheader"
+
+  }
+
+}

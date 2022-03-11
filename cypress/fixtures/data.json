@@ -1,0 +1,16 @@
+{
+  "loginPage":
+  {
+    "loginURL": "https://the-internet.herokuapp.com/login",
+    "user1": "tomsmith",
+    "pass1": "SuperSecretPassword!",
+    "FakeUser": "FakeUser",
+    "FakePass": "12345678",
+    "InvalidUserAlert": "Your username is invalid!",
+    "InvalidPassAlert": "Your password is invalid!",
+    "loginSuccesfullMssg":"You logged into a secure area!",
+    "logoutSuccesfullMssg":"You logged out of the secure area!"
+
+  }
+
+}
