@@ -22,7 +22,7 @@ describe('Login/Logout Test Scenarious', () => {
     //Enter an invalid usert id
     cy.get(pageObject.loginPage.userNameField).type(data.loginPage.FakeUser+'{enter}')
     //check the text of the alert is correct and visible
-    cy.get(pageObject.loginPage.alert).should('be.visible').checkElementText( data.loginPage.InvalidPassAlert)
+    cy.get(pageObject.loginPage.alert).should('be.visible').checkElementText( data.loginPage.InvalidUserAlert)
   
   })
 
