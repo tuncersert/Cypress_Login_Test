@@ -30,11 +30,9 @@ Cypress.Commands.add('checkElementText', { prevSubject: 'element' }, (subject, t
     })
 })
 
-Cypress.Commands.add('checkURL', (link, exactResult) => {
+Cypress.Commands.add('checkURL', (link) => {
     cy.location('href', { timeout: 60000 }).should(url => {
-        if (exactResult)
-            expect(url).to.endsWith(link);
-        else
-            expect(url).to.include(link);
+
+        expect(url).to.include(link);
     })
 })
