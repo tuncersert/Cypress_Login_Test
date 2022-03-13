@@ -4,7 +4,7 @@ Two functions/methods added to ***command.js*** file to make the tests stable an
 In addition, one '**_login_**' function/method added to _**helper.js**_ class to make it easier and reusable while logging in.
 
 To be able to execute the tests locally, users needs to install cypress to their devices. 
-The information of installation can be found in this link: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download
+The information of installation can be found in this link: https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download.
 After installation the link of the repository (https://github.com/tuncersert/Cypress_Login_Test.git) should be cloned and opened by an IDE. 
 VSC can be used to open the framework. The link of the VSC can be found here: https://code.visualstudio.com/download.
 
