@@ -17,7 +17,7 @@ describe('TS_0001_Login/Logout Test Scenarious', () => {
     
   })
 
-  it('TC0001_Check If Wrong User Id Alert Displays', () => {
+  it('TC0001_Check If Alert of "Invalid_User_Id" Displays', () => {
     ///Enter a wrong user id and check if correct alert displays
     
     //Enter an invalid usert id
@@ -28,7 +28,7 @@ describe('TS_0001_Login/Logout Test Scenarious', () => {
   
   })
 
-  it('TC0002_Check If Wrong Password Alert Displays', () => {
+  it('TC0002_Check If Alert of "Invalid_Password" Displays', () => {
     ///Enter a correct user id but incorrect password and check if correct alert displays
     
     //Enter valid user id
@@ -55,7 +55,7 @@ describe('TS_0001_Login/Logout Test Scenarious', () => {
     cy.get(pageObject.loginPage.secureArea).should('be.visible').checkElementText('Welcome to the Secure Area')
 
   })
-  
+
   it('TC0004_Check If User Logout Successfully', () => {
     ///Enter correct user id/password and check if user ends up to the correct page
     helper.login(data.loginPage.user1, data.loginPage.pass1)
